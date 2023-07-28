@@ -19,7 +19,7 @@ NUM_WORKERS = 1
 
 MAX_MESSAGE_LENGTH = 1024 * 1024 * 8
 pattern = r"\[SENT:(\d+)\]"
-device = torch.device("cuda:0")
+device = torch.device("cpu")
 # device = "cuda:0"
 print(device)
 
